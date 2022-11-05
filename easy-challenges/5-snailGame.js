@@ -6,7 +6,6 @@
 // Create a function that determines whether Maurice's plan will work by outputting true if Maurice wins 2/3 games.
 
 // The function inputs:
-
 // Array 1: [s, m, f] for Maurice.
 // Array 2: [s, m, f] for Steve.
 function mauriceWins(arr1, arr2) {
@@ -28,7 +27,6 @@ function mauriceWins(arr1, arr2) {
   } else {
     arr2Point++;
   }
-
   if (arr1Point > arr2Point) {
     return console.log(true);
   } else {
