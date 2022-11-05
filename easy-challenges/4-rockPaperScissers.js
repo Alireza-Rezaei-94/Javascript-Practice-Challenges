@@ -29,7 +29,6 @@ rps("Rock", "Paper");
 
 rps("Scissors", "Paper");
 // ➞ "The winner is p1"
-
 rps("Paper", "Paper");
 // ➞ "It's a draw"
 // Notes

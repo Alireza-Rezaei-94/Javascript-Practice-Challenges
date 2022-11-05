@@ -11,7 +11,6 @@
 function mauriceWins(arr1, arr2) {
   arr1Point = 0;
   arr2Point = 0;
-
   if (arr1[0] > arr2[2]) {
     arr1Point++;
   } else {

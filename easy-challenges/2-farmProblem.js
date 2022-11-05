@@ -4,7 +4,6 @@
 // cows = 4 legs
 // pigs = 4 legs
 // The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
-
 function animals(chickens, cows, pigs) {
   let sumOfLegs = 2 * chickens + 4 * cows + 4 * pigs;
   console.log(sumOfLegs);

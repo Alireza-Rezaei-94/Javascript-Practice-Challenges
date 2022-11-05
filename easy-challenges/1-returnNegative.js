@@ -12,5 +12,4 @@ function negetiveNumber(params) {
   negetiveNum = -params * 2 + params;
   return negetiveNum;
 }
-
 console.log(negetiveNumber(5));

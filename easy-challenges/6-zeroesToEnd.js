@@ -1,5 +1,4 @@
 // Write a function that moves all the zeroes to the end of an array. Do this without returning a copy of the input array.
-
 function zeroesToEnd(arr) {
   let zerosCounter = 0;
   for (i = 0; i < arr.length; i++) {
