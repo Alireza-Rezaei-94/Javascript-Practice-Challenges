@@ -3,11 +3,19 @@
 // n is the number of square meters I can paint.
 // w and h are the widths and heights of a single wall in meters.
 // Examples
-// howManyWalls(100, 4, 5) ➞ 5
+function howManyWalls(n, w, h) {
+  Area = h * w;
+  wallCoverd = Math.floor(n / Area);
+  console.log(wallCoverd);
+}
+howManyWalls(100, 4, 5);
+// ➞ 5
 
-// howManyWalls(10, 15, 12) ➞ 0
+howManyWalls(10, 15, 12);
+//  ➞ 0
 
-// howManyWalls(41, 3, 6) ➞ 2
+howManyWalls(41, 3, 6);
+// ➞ 2
 // Notes
 // Don't count a wall if I don't manage to finish painting all of it before I run out of paint.
 // All walls will have the same dimensions.

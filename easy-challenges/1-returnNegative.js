@@ -8,3 +8,9 @@
 // returnNegative(-4) ➞ -4
 
 // returnNegative(0) ➞ 0
+function negetiveNumber(params) {
+  negetiveNum = -params * 2 + params;
+  return negetiveNum;
+}
+
+console.log(negetiveNumber(5));
