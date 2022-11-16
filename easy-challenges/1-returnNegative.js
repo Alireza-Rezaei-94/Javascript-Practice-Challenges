@@ -13,3 +13,13 @@ function negetiveNumber(params) {
   return negetiveNum;
 }
 console.log(negetiveNumber(5));
+
+// function returnnegative (num) {
+//     if(num>0){
+//     num *= -1;
+//     }
+//     return num;
+// }
+
+// console.log(returnnegative(9));
+// console.log(returnnegative(-8));
